@@ -1,0 +1,89 @@
+header>div:nth-child(3){
+  height: 416px;
+  width: 100%;
+}
+header>div:nth-child(3)>div:first-child{
+  height: 316px;
+  background-image: url(../images/Rectangle\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header>div:nth-child(3)>div:first-child h1{
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  text-align: center;
+}
+header>div:nth-child(3)>div:first-child h3{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+}
+header>div:nth-child(3)>div:nth-child(2){
+  height: 100px;
+  background-color: #F9F1E7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 5%;
+}
+header>div:nth-child(3)>div:nth-child(2)>div{
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+header>div:nth-child(3)>div:nth-child(2)>div>div:first-child{
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  align-items: center;
+}
+header>div:nth-child(3)>div:nth-child(2)>div>div:nth-child(4){
+  width: 220px;
+  display: flex;
+  justify-content: flex-end;
+  border-left: black solid 2px;
+}
+header>div:nth-child(3)>div:nth-child(2)>div:nth-child(2){
+  width: 500px;
+}
+header>div:nth-child(3)>div:nth-child(2)>div:nth-child(2)>div{
+  width: 126px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header>div:nth-child(3)>div:nth-child(2)>div:nth-child(2)>div:nth-child(2){
+  width: 288px;
+}
+header>div:nth-child(3)>div:nth-child(2)>div:nth-child(2) div div{
+  background-color: #ffffff;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  color: #9F9F9F;
+  font-size: 20px;
+  font-weight: 400;
+}
+header>div:nth-child(3)>div:nth-child(2)>div:nth-child(2) div:nth-child(2) div{
+  width: 188px;
+}
+header>div:nth-child(3)>div:nth-child(2)>div:nth-child(2) div>span{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+header>div:nth-child(3)>div:nth-child(3){
+  position: absolute;
+  width: 100px;
+  height: 500px;
+  top: 20vw;
+  background-color: red;
+  display: none;
+}
